@@ -3,3 +3,4 @@ services:
     name: projeto-app
     env: docker
     plan: free
+    startCommand: "php artisan migrate --force && apache2-foreground"
