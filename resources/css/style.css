@@ -1,0 +1,134 @@
+body{
+    background: #eef2f7;
+    font-family: 'Segoe UI', sans-serif;
+    color: #1e293b;
+}
+
+/* NAVBAR */
+
+.navbar-custom{
+    background: #0f172a;
+    padding: 20px 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-link-custom{
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link-custom:hover{
+    color: white;
+}
+
+/* CARD */
+
+.custom-card{
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
+
+/* TITULO */
+
+.page-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0f172a;
+}
+
+/* INPUTS */
+
+.form-control{
+    height: 55px;
+    border-radius: 14px !important;
+    border: 1px solid #dbeafe !important;
+    padding-left: 15px !important;
+    font-size: 15px;
+}
+
+.form-control:focus{
+    border-color: #2563eb !important;
+    box-shadow: 0 0 0 0.2rem rgba(37,99,235,.15) !important;
+}
+
+/* BOTÕES */
+
+.btn-modern{
+    height: 52px;
+    border-radius: 14px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary-modern{
+    background: #2563eb;
+    color: white;
+}
+
+.btn-primary-modern:hover{
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* TABELA */
+
+.table-modern{
+    overflow: hidden;
+    border-radius: 20px;
+    background: white;
+}
+
+.table-modern thead{
+    background: #0f172a;
+    color: white;
+}
+
+.table-modern th{
+    padding: 18px;
+}
+
+.table-modern td{
+    padding: 18px;
+}
+
+.table-modern tbody tr{
+    transition: 0.2s;
+}
+
+.table-modern tbody tr:hover{
+    background: #f8fafc;
+}
+
+/* ALERTA */
+
+.alert{
+    border-radius: 14px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+    .custom-card{
+        padding: 25px;
+    }
+
+    .page-title{
+        font-size: 30px;
+    }
+
+}
